@@ -15,4 +15,5 @@ export const store = configureStore({
     notes: noteReducer,
     organizations : organizationreducer
   },
+  devTools: false
 });
